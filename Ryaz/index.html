@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class="img"> </div>
+    <div class="wrapper">
+        <header>
+            <a href="#" class="logo">Shoe<span>Brand</span></a>
+            <nav>
+                <svg class='icon' xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m16.5 33.6 7.5-7.5 7.5 7.5 2.1-2.1-7.5-7.5 7.5-7.5-2.1-2.1-7.5 7.5-7.5-7.5-2.1 2.1 7.5 7.5-7.5 7.5ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.8 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24 4q4.15 0 7.8 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Zm0-3q7.1 0 12.05-4.975Q41 31.05 41 24q0-7.1-4.95-12.05Q31.1 7 24 7q-7.05 0-12.025 4.95Q7 16.9 7 24q0 7.05 4.975 12.025Q16.95 41 24 41Zm0-17Z"/></svg>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sneakers</a></li>
+                <li><a href="#">Players</a></li>
+            </ul>
+            
+            
+            </nav>
+            <svg class="menu" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/>
+                </svg>
+                
+        </header>
+        <section class="sec1">
+            <h1>Regain your confidence on the court</h1>
+            <p class="subhead">A shoe build with the purpose and to take your game to the next level</p>
+            <svg class="down-arrow" viewBox="0 0 16 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.29289 131.707C7.68341 132.098 8.31658 132.098 8.7071 131.707L15.0711 125.343C15.4616 124.953 15.4616 124.319 15.0711 123.929C14.6805 123.538 14.0474 123.538 13.6568 123.929L7.99999 129.586L2.34314 123.929C1.95262 123.538 1.31945 123.538 0.928927 123.929C0.538402 124.319 0.538402 124.953 0.928927 125.343L7.29289 131.707ZM7 -4.37114e-08L6.99999 131L8.99999 131L9 4.37114e-08L7 -4.37114e-08Z" fill="black"/>
+                </svg>
+                
+
+        </section>
+
+        <section class="sec2">
+
+            <div class="feature">
+                <div class="content"><p class="title">Light weight</p>
+                <p class="desc">These shoes are light weight and these are cheap also that everyone can buy. So you should definately buy these shoes.</p>
+            </div>
+            <img src="images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="shoe">
+            </div>
+
+            <div class="feature left">
+                <div class="content"><p class="title">Medium weight</p>
+                <p class="desc">These shoes are light weight and these are cheap also that everyone can buy. So you should definately buy these shoes.</p>
+            </div>
+            <img src="images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg" alt="shoe">
+            </div>
+
+            <div class="feature">
+                <div class="content"><p class="title">Heavy weight</p>
+                <p class="desc">These shoes are light weight and these are cheap also that everyone can buy. So you should definately buy these shoes.</p>
+            </div>
+            <img src="images/usama-akram-kP6knT7tjn4-unsplash.jpg" alt="shoe">
+            </div>
+             
+
+        </section>
+</div> 
+<script>
+    const menu = document.querySelector(".menu")
+    const icon = document.querySelector(".icon")
+    const nav = document.querySelector("nav")
+
+    menu.addEventListener('click', () => {nav.classList.add('open-nav')})
+    icon.addEventListener('click', () => {nav.classList.remove('open-nav')})
+
+
+</script>
+</body>
+
+</html>
